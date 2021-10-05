@@ -8,7 +8,7 @@
 }
 
 body{
-    background-image: url(file:///Users/takumi/Downloads/ep_naturalwhite/ep_naturalwhite.png);
+    background-image: url("..//css/ep_naturalwhite.png");
 }
 
 .tabcontent{
@@ -51,7 +51,7 @@ body{
 
 #cookie{
     background: teal;
-    background-image: url(file:///Users/takumi/Desktop/September%20Class/Bakery%20shop/images/mae-mu-kID9sxbJ3BQ-unsplash.jpg);
+    background-image: url(https://images.unsplash.com/photo-1558961363-fa8fdf82db35?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=765&q=80);
     background-position: center;
     background-size: cover;
     opacity: 0.8;
@@ -143,7 +143,7 @@ body{
 .modal-body{
     background: #eaeaea;
     padding: 4em;
-    background-image: url(file:///Users/takumi/Downloads/moroccan-flower/moroccan-flower.png);  
+    background-image: url("..//css/moroccan-flower.png");  
 }
 
 .modal-body ul li{
