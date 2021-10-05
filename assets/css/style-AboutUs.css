@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato';
+}
+
+body{
+    background-image: url(file:///Users/takumi/Downloads/ep_naturalwhite/ep_naturalwhite.png);
+    font-style: italic;
+}
+
+
+
+header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: rgb(248, 234, 197);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+
+header img{
+    width: 100px;
+    height: 150px;
+    object-fit: cover;
+}
+
+header ul li{
+    display: inline-block;
+    padding: 5px 20px;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: black;
+    transition: 0.3s ease;
+}
+
+header ul li a:hover{
+    border-bottom: 1px solid black;
+}
+
+button{
+    padding: 5px 20px;
+    background: skyblue;
+    border-radius: 20px;
+    color: white;
+    transition: 0.3s ease;
+}
+
+button:hover{
+    color: black;
+}
+/* -------------------------- */
+
+/* 1--------About Us---------- */
+.aboutUs{
+    width: 100%;
+    margin-top: 10em;
+    font-style: italic;
+    text-align: center;
+    padding: 40px 0;
+    border-radius: 50px;
+}
+
+.aboutUs h2{
+    margin-top: -1em;
+    margin-bottom: 2em;
+}
+
+.container-1{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    /* margin-top: 3em; */
+}
+
+.about-image{
+    flex: 1;
+    /* border: 1px solid red; */
+    height: 300px;
+}
+
+.about-image img{
+    height: 300px;
+    object-fit: cover;
+    /* border: 1px solid red; */
+}
+
+.about-text{
+    flex: 1;
+    border-left: 1px solid black;
+    height: 300px;
+    text-align: center;
+    line-height: 30px;
+    display: none;
+}
+
+.text-wrapper{
+    display: flex;
+    height: 300px;
+    align-items: center;
+}
+
+/* ------------------------------- */
+
+/* -------2 Our Bread------------- */
+.bread{
+    font-style: italic;
+    width: 80%;
+    margin: auto;
+    margin-top: 2em;
+}
+
+.bread-p{
+    border-left: 1px solid black;
+    line-height: 40px;
+}
+
+.bread p{
+    padding: 10px;
+    border-left: 1px solid black;
+}
+
+.bread-img{
+    display: grid;
+    gap: 5px;
+    width: 70%;
+    margin: 2em auto;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+.none1{
+    
+    display: none
+}
+
+.bread1{
+    grid-column: 2/4;
+}
+
+.bread1 img{
+    object-fit: cover;
+    width: 100%;
+    border-radius: 45%;
+    display: none;
+    height: 300px;
+}
+
+.bread2{
+    grid-column: 1/3;
+}
+
+.bread2 img{
+    object-fit: cover;
+    width: 100%;
+    border-radius: 45%;
+    display: none;
+    height: 300px;
+}
+
+.none2{
+    grid-template-columns: 3/4;
+}
+
+/* ------------------------- */
+
+/* -------3 reason---------- */
+
+.explain{
+    font-style: italic;
+    width: 90%;
+    margin: 8em auto;
+    height: 420px;
+}
+
+.explain h2{
+    text-align: center;
+    margin-top: 1em;
+}
+.container-2{
+    margin-top: 3em;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-wrapper{
+    padding: 40px 10px 40px 10px;
+    text-align: center;
+    flex-basis: 30%;
+}
+
+.card-wrapper img{
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    border-radius: 150px;
+    overflow: hidden;
+}
+
+.card-wrapper p{
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:700px){
+
+
+
+
+
+
+    .container-1{
+        flex-direction: column;
+    }
+
+    .about-image img{
+        width: 100%;
+    }
+
+    .bread-img{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bread1 img,
+    .bread2 img{
+        height: 250px;
+    }
+
+    .bread2 img{
+        margin-top: 2em;
+    }
+
+    .container-2{
+        flex-direction: column;
+    }
+
+    header ul li{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

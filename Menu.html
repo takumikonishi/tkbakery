@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="assets/css/style-Menu.css">
+</head>
+<body>
+    
+            <div id="open">
+                <a href="#">Back to Home</a>
+            </div>
+
+            <div id="myModal" class="modal">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <a href="#" id="close">&times;</a>
+                    </div>
+                    <div class="modal-body">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="Onlineshopping.html">Online Shopping</a></li>
+                            <li><a href="AboutUs.html">About Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+    <div id="all" class="tabcontent">
+        <h2>Menu</h2>
+        <p>Try our variety of foods</p>
+    </div>
+    <div id="bread" class="tabcontent">
+        <h2 class="text">Bread</h2>
+       <p class="text">We produce natural yeast bread</p>
+    </div>
+    <div id="cake" class="tabcontent">
+        <h2>Cake</h2>
+        <p>We use local ingredient for cake</p>
+    </div>
+    <div id="cookie" class="tabcontent">
+        <h2>Cookie</h2>
+        <p>We are very paticular about flour</p>
+    </div>
+
+    <div id="drink" class="tabcontent">
+        <h2>Drink&Other Items</h2>
+        <p class="beans">Our Homemade coffee&jam</p>
+    </div>
+
+   <div class="tabs">
+      <button id="default-1" class="tablink" onclick="foodItem('all', this, '#888888')">All-Menu</button>
+      <button id="default-2" class="tablink" onclick="foodItem('bread',this,'#888888')">Bread</button>
+      <button id="default-3" class="tablink" onclick="foodItem('cake' ,this ,'#888888')">Cake</button>
+      <button id="default-4" class="tablink" onclick="foodItem('cookie',this,'#888888')">Cookie</button>
+      <button id="default-5" class="tablink" onclick="foodItem('drink',this,'#888888')">Other Items</button>
+  </div>
+
+   <div class="gallery">
+       <div class="bread">
+           <img src="images-1/bread-4.jpg" alt="">
+           <p class="food-text">Croissant $5</p>
+       </div>
+
+       <div class="bread">
+          <img src="images-1/bread-1.jpg" alt="">
+          <p class="food-text">Orange Cornet $6</p>
+       </div>
+
+       <div class="bread">
+         <img src="images-1/bread-2.jpg" alt="">
+         <p class="food-text">Sinamon Bread  $6</p>
+       </div>
+
+       <div class="bread">
+          <img src="images-1/bread-3.jpg" alt="">
+          <p class="food-text">Flour Bread $4</p>
+      </div>
+
+      <div class="bread">
+         <img src="images-1/bread-５.jpg" alt="">
+         <p class="food-text"> Churros $8</p>
+      </div>
+
+      <div class="bread">
+         <img src="images-1/bread-６.jpg" alt="">
+         <p class="food-text"> Melon Bread  $5</p>
+      </div>
+
+      <div class="bread">
+         <img src="images-1/bread-7.jpg" alt="">
+         <p class="food-text"> Strawberry Bread $8</p>
+     </div>
+
+     <div class="bread">
+         <img src="images-1/bread-8.jpg" alt="">
+         <p class="food-text"> Sandwitch $12</p>
+     </div>
+
+     <div class="bread">
+         <img src="images-1/bread-9.jpg" alt="">
+         <p class="food-text"> Bacon Bread $10</p>
+     </div>
+
+     <div class="bread">
+         <img src="images-1/bread-10.jpg" alt="">
+         <p class="food-text"> Curry Bread $8</p>
+     </div>
+
+     <div class="bread">
+         <img src="images-1/bread-11.jpg" alt="">
+         <p class="food-text">Bajil&Avocard Bread $8</p>
+     </div>
+
+     <div class="bread">
+         <img src="images-1/bread-12.jpg" alt="">
+         <p class="food-text">Egg&Avocard Bread $6</p>
+     </div>
+
+     <!-- bread -->
+     
+     <!-- cake -->
+      <div class="cake">
+         <img src="images-1/cake-1.jpg" alt="">
+         <p class="food-text">Birthday cake $90</p>
+      </div>
+
+       <div class="cake">
+         <img src="images-1/cake-2.jpg" alt="">
+         <p class="food-text">Cream puff $15</p>
+      </div>
+
+     <div class="cake">
+         <img src="images-1/cake-3.jpg" alt="">
+         <p class="food-text">Chocolate Cake $15</p>
+     </div>
+
+     <div class="cake">
+         <img src="images-1/cake-4.jpg" alt="">
+         <p class="food-text">Strawberry Cake $12</p>
+     </div>
+
+     <div class="cake">
+         <img src="images-1/cake-5.jpg" alt="">
+         <p class="food-text">Orange Cake $12</p>
+     </div>
+
+     <div class="cake">
+         <img src="images-1/cake-6.jpg" alt="">
+         <p class="food-text">Cheese Cake $10</p>
+     </div>
+
+     <div class="cake">
+         <img src="images-1/cake-7.jpg" alt="">
+         <p class="food-text">Chestunt Cake $18</p>
+     </div>
+
+     <div class="cake">
+         <img src="images-1/cake-8.jpg" alt="">
+         <p class="food-text">Orange Tarut $12</p>
+     </div>
+     <!-- cake -->
+
+     <!-- cookie -->
+
+     <div class="cookie">
+         <img src="images-1/cookie-1.jpg" alt="">
+         <p class="food-text">Makarone Cookie $5</p>
+     </div>
+
+     <div class="cookie">
+         <img src="images-1/cookie-8.jpg" alt="">
+         <p class="food-text">Rose Makarone $8</p>
+     </div>
+
+     <div class="cookie">
+         <img src="images-1/cookie-3.jpg" alt="">
+         <p class="food-text">Choco Sugar Cookie $7</p>
+     </div>
+
+     <div class="cookie">
+         <img src="images-1/cookie-4.jpg" alt="">
+         <p class="food-text">Chocolate Cookie $6</p>
+     </div>
+
+     <div class="cookie">
+         <img src="images-1/cookie-5.jpg" alt="">
+         <p class="food-text">Sugar Cookie $5</p>
+     </div>
+
+     <div class="cookie">
+         <img src="images-1/cookie-6.jpg" alt="">
+         <p class="food-text">Chracter Cookie $6</p>
+     </div>
+
+     <div class="cookie">
+         <img src="images-1/cookie-7.jpg" alt="">
+         <p class="food-text">Biscuit Cookie $4</p>
+     </div>
+
+     <div class="cookie">
+         <img src="images-1/cookie-2.jpg" alt="">
+         <p class="food-text">Hurt Cookie $6</p>
+     </div>
+
+     <!-- cookie-->
+
+     <!-- coffee -->
+     <div class="coffee">
+         <img src="images-1/Otehers-1.jpg" alt="">
+         <p class="food-text">Hot Coffee $8</p>
+     </div>
+
+     <div class="coffee">
+         <img src="images-1/Otehers-2.jpg" alt="">
+         <p class="food-text">Ice Coffee $8</p>
+     </div>
+
+     <div class="coffee">
+         <img src="images-1/Others-6.jpg" alt="">
+         <p class="food-text">Cappuccino $10</p>
+     </div>
+
+     <div class="coffee">
+         <img src="images-1/Others-7.jpg" alt="">
+         <p class="food-text">Latte $10</p>
+     </div>
+
+     <div class="coffee">
+         <img src="images-1/Otehers-3.jpg" alt="">
+         <p class="food-text">Strawberry Jam $10</p>
+     </div>
+
+     <div class="coffee">
+         <img src="images-1/Others-4.jpg" alt="">
+         <p class="food-text">Orange Jam $10</p>
+     </div>
+
+     <div class="coffee">
+         <img src="images-1/Others-5.jpg" alt="">
+         <p class="food-text">Cherry Jam $10</p>
+     </div>
+
+     <div class="coffee">
+         <img src="images-1/Others-8.jpg" alt="">
+         <p class="food-text">Apple Jam $10</p>
+     </div>
+ </div>
+
+  <footer>
+      <img src="images/logo_transparent.png" alt="">
+  </footer>
+
+  
+
+    
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+
+    <script src="assets/js/Menu.js"></script>
+</body>
+</html>
