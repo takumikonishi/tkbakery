@@ -412,6 +412,12 @@ strong{
 
 @media(max-width:768px){
 
+    header img{
+        width: 80px;
+        height: 80px;
+        object-fit: cover;
+    }
+
     .modal-content{
         width: 80%;
     }
