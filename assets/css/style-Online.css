@@ -8,7 +8,7 @@
 }
 
 body{
-    background-image: url(file:///Users/takumi/Downloads/moroccan-flower/moroccan-flower.png)
+    background-image: url("..//css/moroccan-flower.png")
 }
 
 header{
@@ -76,7 +76,7 @@ header img{
     position: relative;
     animation-name: modal;
     animation-duration: 0.5s;
-    background-image: url(file:///Users/takumi/Downloads/moroccan-flower/moroccan-flower.png);
+    background-image: url("..//css/moroccan-flower.png");
 }
 
 .modal-header{
@@ -143,7 +143,7 @@ strong{
 }
 
 .modal-body-1{
-    background-image: url(file:///Users/takumi/Downloads/moroccan-flower/moroccan-flower.png);
+    background-image: url("..//css/moroccan-flower.png");
     padding: 5em;
 }
 
